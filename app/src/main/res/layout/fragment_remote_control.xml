@@ -24,8 +24,8 @@
         android:textColor="#cccccc"
         android:textSize="20dp"/>
     <include
-        android:layout_weight="1"
-        layout="@layout/button_row" />
+        layout="@layout/button_row"
+        android:layout_weight="1" />
     <include
         android:layout_weight="1"
         layout="@layout/button_row" />

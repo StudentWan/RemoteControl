@@ -62,6 +62,7 @@ public class RemoteControlFragment extends Fragment{
 
         Button deleteButton = (Button)bottomRow.getChildAt(0);
         deleteButton.setText("Delete");
+        deleteButton.setTextAppearance(R.style.RemoteButton_ControlButton);
         deleteButton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 mWorkingTextView.setText("0");
